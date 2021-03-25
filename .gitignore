@@ -38,6 +38,7 @@ atlassian*
 /pub
 /setup
 /var
+/generated
 
 # Excludes (or a better alternative might be to symlink this to shared folders
 !/pub/media/catalog

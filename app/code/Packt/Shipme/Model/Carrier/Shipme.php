@@ -64,4 +64,8 @@ class Shipme extends \Magento\Shipping\Model\Carrier\AbstractCarrier implements 
     public function getAllowedMethods() {
         return ['shipme' => $this->getConfigData('name')];
     }
+
+    public function isTrackingAvailable() {
+        return true;
+    }
 }
